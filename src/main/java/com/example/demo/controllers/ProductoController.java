@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/productos")
 public class ProductoController {
 
     private final List<Map<String, Object>> productos = List.of(
